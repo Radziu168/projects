@@ -1,0 +1,17 @@
+$primary-color: #14445c;
+$accent-color: #43436b;
+$text-color: #2ba0b4;
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
+
+body {
+    background: $primary-color;
+    color: $text-color;
+}
+p {
+    background: red;
+    font-size: 14px;
+}
